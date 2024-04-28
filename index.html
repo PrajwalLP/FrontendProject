@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Photography Website</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Terms</a></li>
+      </ul>
+    </header>
+    <section class="banner" onclick="nextBackground()">
+      <h1 class="Click">Click the image to change!!</h1>
+    </section>
+    <section class="gallery">
+      <h1 class="Peek">Peek into the past.</h1>
+      <div class="image middle">
+        <img
+          src="images/image-1-small.jpg"
+          data-full="images/image-1.jpg"
+          alt="Image 1"
+          onclick="openImage(this)"
+        />
+      </div>
+      <div class="image top-right">
+        <img
+          src="images/image-2-small.jpg"
+          data-full="images/image-2.jpg"
+          alt="Image 2"
+          onclick="openImage(this)"
+        />
+      </div>
+      <div class="image top-left">
+        <img
+          src="images/image-3-small.jpg"
+          data-full="images/image-3.jpg"
+          alt="Image 3"
+          onclick="openImage(this)"
+        />
+      </div>
+      <div class="image bottom-right">
+        <img
+          src="images/image-4-small.jpg"
+          data-full="images/image-4.jpg"
+          alt="Image 3"
+          onclick="openImage(this)"
+        />
+      </div>
+      <div class="image bottom-left">
+        <img
+          src="images/image-5-small.jpg"
+          data-full="images/image-5.jpg"
+          alt="Image 3"
+          onclick="openImage(this)"
+        />
+      </div>
+      <div class="image topp">
+        <img
+          src="images/image-6-small.jpg"
+          data-full="images/image-6.jpg"
+          alt="Image 3"
+          onclick="openImage(this)"
+        />
+      </div>
+      <div class="image bott">
+        <img
+          src="images/image-7-small.jpg"
+          data-full="images/image-7.jpg"
+          alt="Image 3"
+          onclick="openImage(this)"
+        />
+      </div>
+    </section>
+    <section class="about">
+      <div><h1>Testimonials!</h1></div>
+      <div class="about-text">
+        <h2>Test-1</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="images/image-4.jpg" alt="About Image" />
+      </div>
+      <button onclick="nextSection(this)">Next Section</button>
+    </section>
+    <section class="about">
+      <div class="about-image2">
+        <img src="images/image-6.jpg" alt="Services Image" />
+      </div>
+      <div class="about-text2">
+        <h2>Test-2</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+      <button onclick="nextSection(this)">Next Section</button>
+    </section>
+    <section class="about">
+      <div class="about-text3">
+        <h2>Test-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+      </div>
+      <div class="about-image3">
+        <img src="images/image-8.jpg" alt="Contact Image" />
+      </div>
+      <button onclick="nextSection(this)">Next Section</button>
+    </section>
+    <script src="scripts.js"></script>
+  </body>
+</html>
